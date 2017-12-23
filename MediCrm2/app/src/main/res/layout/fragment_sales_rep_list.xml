@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="challenge.rt.medibus.mani.ui.home.salesrep.SalesRepListFragment">
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/header_text"
+      android:textSize="23dp"
+      android:layout_centerHorizontal="true"
+      android:fontFamily="@font/avenir_heavy"
+      android:text="Sales Rep"/>
+  <EditText
+      android:layout_below="@+id/header_text"
+      android:background="@drawable/search_view_background"
+      android:layout_width="match_parent"
+      android:layout_height="45dp"
+      android:id="@+id/search_sales"
+      android:drawablePadding="7dp"
+      android:paddingLeft="13dp"
+      android:drawableRight="@android:drawable/ic_menu_search"/>
+  <android.support.v7.widget.RecyclerView
+      android:layout_below="@+id/search_sales"
+      android:id="@+id/sales_rep_recycler_View"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"/>
+
+</RelativeLayout>

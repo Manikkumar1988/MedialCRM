@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tail_background"
+    android:layout_margin="10dp"
+    android:padding="8dp">
+  <TextView
+      android:text="Sales Rep 1"
+      android:drawablePadding="2dp"
+      android:layout_alignParentLeft="true"
+      android:layout_toLeftOf="@+id/sales_rep_phoneno"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/avenir_book"
+      android:id="@+id/sales_rep_name"/>
+  <TextView
+      android:text="Address 1"
+      android:id="@+id/sales_address"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/avenir_book"
+      android:layout_below="@+id/sales_rep_name"/>
+  <TextView
+      android:drawableLeft="@android:drawable/stat_sys_phone_call"
+      android:drawablePadding="2dp"
+      android:text="9894740860"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/sales_rep_phoneno"
+      android:fontFamily="@font/avenir_book"
+      android:layout_alignParentRight="true"/>
+</RelativeLayout>

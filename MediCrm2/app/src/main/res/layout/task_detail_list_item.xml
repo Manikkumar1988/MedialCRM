@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tail_background"
+    android:layout_margin="10dp"
+    android:padding="8dp">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/task_name"
+    android:fontFamily="@font/avenir_book"
+    android:text="Task Name"/>
+  <TextView
+      android:layout_below="@+id/task_name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/pharmacy_name"
+      android:fontFamily="@font/avenir_book"
+      android:text="Pharmacy Name"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/task_end_Date"
+      android:layout_below="@+id/task_name"
+      android:text="19/12/1988"
+      android:fontFamily="@font/avenir_book"
+      android:layout_alignParentRight="true"/>
+</RelativeLayout>

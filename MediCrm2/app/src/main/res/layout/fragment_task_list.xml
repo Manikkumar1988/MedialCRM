@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="challenge.rt.medibus.mani.ui.home.task.TaskListFragment">
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/header_text"
+      android:textSize="23dp"
+      android:layout_centerHorizontal="true"
+      android:fontFamily="@font/avenir_heavy"
+      android:text="Task Detail"/>
+  <android.support.v7.widget.RecyclerView
+      android:layout_below="@+id/header_text"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/task_list_fragment"/>
+
+</RelativeLayout>

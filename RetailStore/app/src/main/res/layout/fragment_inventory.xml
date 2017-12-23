@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="challenge.mani.com.retailstore.inventory.InventoryFragment"
+    android:orientation="vertical">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/product_name"
+    android:hint="Product Name"/>
+  <Spinner
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      tools:listitem="@android:layout/simple_list_item_1"
+      android:id="@+id/category_spinner">
+  </Spinner>
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/product_price"
+      android:hint="Product Price"/>
+  <Button
+      android:id="@+id/add_item_inventory"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Add"/>
+  <ProgressBar
+      android:layout_centerInParent="true"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:visibility="invisible"
+      android:id="@+id/data_loading_ui"/>
+</LinearLayout>
